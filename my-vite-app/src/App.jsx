@@ -8,7 +8,7 @@ function App() {
   return <>
   <input type="text" placeholder="add your task" onChange={(e)=>setTodo(e.target.value)} />
   <div>
-    {todo}
+    Your task : { todo}
   </div>
   </>;
 }
